@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purchase Order</title>
+    <link rel="stylesheet" href="order.css">
+</head>
+<body>
+   <div class="wrapper">
+    <h2>Purchase Order</h2>
+    <form action="" method="POST">
+        <!-- Account Information Start -->
+        <h4>Detials</h4>
+        <div class="input_group">
+            <div class="input_box">
+                <input type="text" class="name" placeholder="Full Name" required>
+            </div>
+            <div class="input_box">
+                <input type="text" class="name" placeholder="Name on card" required 
+                class="Name on card">
+            </div>
+        </div>
+        <div class="input_group">
+            <div class="input_box">
+                <input type="text" class="name" placeholder="E-mail" required 
+                class="E-mail">
+            </div>
+        </div>
+        <div class="input_group">
+            <div class="input_box">
+                <input type="text" class="name" placeholder="Address" required 
+                class="Address">
+            </div>
+            </div>
+            <div class="input_group">
+            <div class="input_box">
+                <input type="text" class="name" placeholder="City" required 
+                class="City">
+            </div>
+        </div>
+        <!-- Account Information End -->
+       
+         <!-- payment details -->
+         <div class="input_group">
+            <div class="input_box">
+                <h4>Payment Details</h4>
+                <input type="radio" name="Pay" class="radio" id="bc1" checked>
+                <label for="bc1"><span>Credit card</span></label>
+                <input type="radio" name="Pay" class="radio" id="bc2">
+                <label for="bc2"><span>Paytm</span></label>
+            </div>
+         </div>
+         <div class="input_group">
+            <div class="input_box">
+                <input type="tel" class="name" placeholder="Card Number 5555-3333-6677-2222" required>
+            </div>
+         </div>
+         <div class="input_group">
+            <div class="input_box">
+                <input type="number" class="name" placeholder="Card CVC 632" required>
+            </div>
+         </div>
+         <div class="input_group">
+            <div class="input_box">
+                <input type="number" class="name" placeholder="Enter Amount" required>
+            </div>
+        </div>
+            <div class="input_group">
+                <div class="input_box">
+                    <button type="submit">Pay Now</button>
+                </div>
+             </div>
+            </div>
+    </form>
+   </div>
+</body>
+</html>
